@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            tools:ignore="ScrollViewSize">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:text="@string/heading"
+                android:id="@+id/headingfrag5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/articlefrag5"
+                android:layout_marginTop="16dp"
+                android:text="@string/txt"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:fontFamily="serif"
+                android:textSize="@dimen/article_text"
+                android:textColor="#FF3B3B3B"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/codefrag5"
+                android:text="@string/txt"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:fontFamily="monospace"
+                android:textSize="@dimen/article_text"
+                android:textColor="@android:color/white"
+                android:background="#28313d"
+                android:padding="8dp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subarticlefrag5"
+                android:layout_marginTop="16dp"
+                android:text="@string/txt"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:fontFamily="serif"
+                android:textSize="@dimen/article_text"
+                android:textColor="#FF3B3B3B"
+                tools:ignore="UnusedAttribute" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/outputfrag5"
+                android:text="@string/txt"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:fontFamily="monospace"
+                android:textSize="@dimen/article_text"
+                android:textColor="@android:color/black"
+                android:background="#b0bec5"
+                android:padding="8dp"
+                tools:ignore="UnusedAttribute" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subsubfrag5"
+                android:layout_marginTop="16dp"
+                android:text="@string/txt"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:fontFamily="serif"
+                android:textSize="@dimen/article_text"
+                android:textColor="#FF3B3B3B"
+                tools:ignore="UnusedAttribute" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#039be5"
+                android:text="Click to Finish"
+                android:padding="8dp"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="false"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:id="@+id/objfragnext"
+                android:layout_marginTop="18dp"
+                android:layout_gravity="end|bottom"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+
+</ScrollView>
+
